@@ -8,35 +8,44 @@
 
 
 
-    <h2> Question 1 </h2>
+    <h4> Question 1 </h4>
+    What additional feature would you like to see?
+
     <ul>
     <% for (var i=0; i<results[1].length; i++){ %>
         <li><%= results[1][i].q1 %> :  <%= results[1][i].count %></li>
     <% } %>
     </ul>
 
-    <h2>Question 2 </h2>
+    <h4>Question 2 </h4>
+    What pages did you visit during your visit?
+
     <ul>
     <% for (var i=0; i<results[0].length; i++){ %>
         <li><%= results[0][i].q2 %> :  <%= results[0][i].count %></li>
     <% } %>
     </ul>
 
-    <h2>Question 3</h2>
+    <h4>Question 3</h4>
+    Were you able to find what you were looking for?
     <ul>
     <% for (var i=0; i<results[2].length; i++){ %>
         <li><%= results[2][i].q3 %> :  <%= results[2][i].count %></li>
     <% } %>
     </ul>
 
-    <h2>Question 4</h2>
+    <h4>Question 4</h4>
+    Did you find this website easy to navigate
+
     <ul>
     <% for (var i=0; i<results[3].length; i++){ %>
         <li><%= results[3][i].q4 %> :  <%= results[3][i].count %></li>
     <% } %>
     </ul>
 
-    <h2>Question 5</h2>
+    <h4>Question 5</h4>
+     I enjoyed using this website.
+
     <ul>
     <% for (var i=0; i<results[4].length; i++){ %>
         <li><%= results[4][i].q5 %> :  <%= results[4][i].count %></li>
@@ -44,7 +53,8 @@
     </ul>
 
 
-    <h2>Question 6</h2>
+    <h4>Question 6</h4>
+    Comments
     <ul>
     <% for (var i=0; i<results[5].length; i++){ %>
         <li><%= results[5][i].q6 %> :  <%= results[5][i].count %></li>
